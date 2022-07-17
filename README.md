@@ -2,9 +2,7 @@
 
 A low-code development platform (LCDP) provides a development environment used to create application software through a graphical user interface. A low-coded platform may produce entirely operational applications, or require additional coding for specific situations.
 
-#### What can you in 4 hours with the Microsoft Power Platform to help front line workers?
-
-A Front Line Workers Accelerator with the Microsoft low-code platform "Microsoft Power Platform"
+#### What can you do in 4 hours leveraging Microsoft Power Platform to help front line workers?
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -65,18 +63,14 @@ With more time the following items were to be developed:
 
 [![powerplatform][powerplatform.js]][powerplatform-url]
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 To test the solution you only need to 
 
-* Import the Frontlineworkers Solution.
+* Import the [FrontLineWorkers_1_0_0_0_managed.zip](https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/FrontLineWorkers_1_0_0_0_managed.zip).
 * Run the Configuration Migration tool.
-* Open the Canvas App.
 
 ### Prerequisites
 
@@ -85,40 +79,34 @@ To test the solution you only need to
 
 ### Installation
 
-1. Download the Frontline Workers solution [https://example.com](https://example.com)
+1. Download the Frontline Workers solution [FrontLineWorkers_1_0_0_0_managed.zip](https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/FrontLineWorkers_1_0_0_0_managed.zip)
 2. Import the Frontline Workers solution into your target environment
    ```sh
-   Go to make.powerapps.com and click on 'Solutions'
+   1. Go to make.powerapps.com and click on 'Solutions'
+   2. Click on "Import Solution"
+   3. Select the "FrontLineWorkers_1_0_0_0_managed.zip"
+   4. ..
+   5. Import configuration data
+        Start the Configuration Migration tool. Double-click DataMigrationUtility.exe in the folder: [your folder]\Tools\ConfigurationMigration\
+
+        On the main screen, click Import data, and click Continue.
+
+        On the Login screen, provide authentication details to connect to your environment from where you want to import data. If you have multiple organizations on the Dynamics 365 server, and want to select the organization where to import the configuration data, select the Always display list of available orgs check box. Click Login.
+
+        If you have multiple organizations, and you selected the Always display list of available orgs check box, the next screen lets you choose the organization that you want to connect to. Select an organization to connect to.
+
+        Provide the data file. (.zip) to be imported. Browse to the data file, and select it. Click Import Data.
+
+        This step is applicable only if the data that you are importing contains the user information of the source system. Enter mapping user information on the target system. You can either map all of them to the user who is running the import process or map to individual users by using a user map file (.xml). If you choose the latter, you will have to either specify an existing user map file or the tool can generate it for you. If you generate a new file, fill in the mapping user name in the New parameter for every user on the source server. Select the user map file in the tool when you are done, and click OK.
    ```
-3. Install NPM packages
+3. Run the configuration migration NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+4. Open the Canvas App your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -134,48 +122,22 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Henrique Souza - [@your_twitter](https://twitter.com/hsilvest) - hs.ccti@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-
-
+Project Link: [https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution](https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/hsilvest/Front-Line-Workers-Power-Platform-Solution.svg?style=for-the-badge
 [contributors-url]: https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/hsilvest/Front-Line-Workers-Power-Platform-Solution.svg?style=for-the-badge
