@@ -85,17 +85,18 @@ To test the solution you only need to
    1. Go to make.powerapps.com and click on 'Solutions'
    2. Click on "Import Solution"
    3. Select the "FrontLineWorkers_1_0_0_0_managed.zip" file, click "Next" and "Import"
-   4. Download the [configuration data](https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/data.zip)
-   5. Import configuration data
-        Start the Configuration Migration tool. Double-click DataMigrationUtility.exe in the folder: [your folder]\Tools\ConfigurationMigration\
+3. Download the [Configuration Data - setup/data.zip](https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/data.zip)
+4. Import Configuration Data - [Configuration Data - setup/data.zip](https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/data.zip)
 
-        On the main screen, click Import data, and click Continue.
+        1. Start the Configuration Migration tool. Double-click DataMigrationUtility.exe in the folder: [your folder]\Tools\ConfigurationMigration\
 
-        On the Login screen, provide authentication details to connect to your environment from where you want to import data. If you have multiple organizations on the Dynamics 365 server, and want to select the organization where to import the configuration data, select the Always display list of available orgs check box. Click Login.
+        2. On the main screen, click Import data, and click Continue.
 
-        If you have multiple organizations, and you selected the Always display list of available orgs check box, the next screen lets you choose the organization that you want to connect to. Select an organization to connect to.
+        3. On the Login screen, provide authentication details to connect to your environment from where you want to import data. If you have multiple organizations on the Dynamics 365 server, and want to select the organization where to import the configuration data, select the Always display list of available orgs check box. Click Login.
 
-        Provide the data file. (.zip) to be imported. Browse to the data file, and select it. Click Import Data.
+        4. If you have multiple organizations, and you selected the Always display list of available orgs check box, the next screen lets you choose the organization that you want to connect to. Select an organization to connect to.
+
+        5. Provide the data file. (.zip) to be imported. Browse to the data file, and select it. Click Import Data.
    ```
 
 <!-- CONTRIBUTING -->
