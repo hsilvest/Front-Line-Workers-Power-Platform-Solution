@@ -84,8 +84,8 @@ To test the solution you only need to
    ```sh
    1. Go to make.powerapps.com and click on 'Solutions'
    2. Click on "Import Solution"
-   3. Select the "FrontLineWorkers_1_0_0_0_managed.zip"
-   4. ..
+   3. Select the "FrontLineWorkers_1_0_0_0_managed.zip" file, click "Next" and "Import"
+   4. Download the [configuration data](https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/data.zip)
    5. Import configuration data
         Start the Configuration Migration tool. Double-click DataMigrationUtility.exe in the folder: [your folder]\Tools\ConfigurationMigration\
 
@@ -96,16 +96,6 @@ To test the solution you only need to
         If you have multiple organizations, and you selected the Always display list of available orgs check box, the next screen lets you choose the organization that you want to connect to. Select an organization to connect to.
 
         Provide the data file. (.zip) to be imported. Browse to the data file, and select it. Click Import Data.
-
-        This step is applicable only if the data that you are importing contains the user information of the source system. Enter mapping user information on the target system. You can either map all of them to the user who is running the import process or map to individual users by using a user map file (.xml). If you choose the latter, you will have to either specify an existing user map file or the tool can generate it for you. If you generate a new file, fill in the mapping user name in the New parameter for every user on the source server. Select the user map file in the tool when you are done, and click OK.
-   ```
-3. Run the configuration migration NPM packages
-   ```sh
-   npm install
-   ```
-4. Open the Canvas App your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
    ```
 
 <!-- CONTRIBUTING -->
@@ -132,7 +122,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Henrique Souza - [@your_twitter](https://twitter.com/hsilvest) - hs.ccti@gmail.com
+Henrique Souza - [@hsilvest](https://twitter.com/hsilvest)
 
 Project Link: [https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution](https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution)
 
@@ -150,6 +140,6 @@ Project Link: [https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Sol
 [license-url]: https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/hsilvestre
-[product-screenshot]: design/images/canvas-app-mockup.png
+[product-screenshot]: https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/design/images/canvas-app-mockup.PNG
 [powerplatform.js]: https://img.shields.io/badge/Microsoft-Power%20Platform-green
 [powerplatform-url]: https://powerplatform.microsoft.com/en-gb/
