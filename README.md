@@ -85,20 +85,31 @@ To test the solution you only need to
    1. Go to make.powerapps.com and click on 'Solutions'
    2. Click on "Import Solution"
    3. Select the "FrontLineWorkers_1_0_0_0_managed.zip" file, click "Next" and "Import"
+    ```
+![Product Name Screen Shot][step1-screenshot]
+
+
 3. Download the [Configuration Data - setup/data.zip](https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/data.zip)
 4. Import Configuration Data - [Configuration Data - setup/data.zip](https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/data.zip)
 
-        1. Start the Configuration Migration tool. Double-click DataMigrationUtility.exe in the folder: [your folder]\Tools\ConfigurationMigration\
+![Product Name Screen Shot][step2-screenshot]
 
-        2. On the main screen, click Import data, and click Continue.
+```sh
+    1. Start the Configuration Migration tool. Double-click DataMigrationUtility.exe in the folder: [your folder]\Tools\ConfigurationMigration\
 
-        3. On the Login screen, provide authentication details to connect to your environment from where you want to import data. If you have multiple organizations on the Dynamics 365 server, and want to select the organization where to import the configuration data, select the Always display list of available orgs check box. Click Login.
+    2. On the main screen, click Import data, and click Continue.
 
-        4. If you have multiple organizations, and you selected the Always display list of available orgs check box, the next screen lets you choose the organization that you want to connect to. Select an organization to connect to.
+    3. On the Login screen, provide authentication details to connect to your environment from where you want to import data. If you have multiple organizations on the Dynamics 365 server, and want to select the organization where to import the configuration data, select the Always display list of available orgs check box. Click Login.
 
-        5. Provide the data file. (.zip) to be imported. Browse to the data file, and select it. Click Import Data.
+    4. If you have multiple organizations, and you selected the Always display list of available orgs check box, the next screen lets you choose the organization that you want to connect to. Select an organization to connect to.
+
+    5. Provide the data file. (.zip) to be imported. Browse to the data file, and select it. Click Import Data.
    ```
+![Product Name Screen Shot][step3-screenshot]
 
+5. Open the Front Line Workers Canvas App
+
+![Product Name Screen Shot][step4-screenshot]
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -142,5 +153,9 @@ Project Link: [https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Sol
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/hsilvestre
 [product-screenshot]: https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/design/images/canvas-app-mockup.PNG
+[step1-screenshot]: https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/images/importing-solution.PNG
+[step2-screenshot]: https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/images/importing-data.PNG
+[step3-screenshot]: https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/images/imported-data.PNG
+[step4-screenshot]: https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/images/canvas-app.PNG
 [powerplatform.js]: https://img.shields.io/badge/Microsoft-Power%20Platform-green
 [powerplatform-url]: https://powerplatform.microsoft.com/en-gb/
