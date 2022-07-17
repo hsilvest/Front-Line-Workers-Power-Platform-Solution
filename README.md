@@ -86,13 +86,11 @@ To test the solution you only need to
    2. Click on "Import Solution"
    3. Select the "FrontLineWorkers_1_0_0_0_managed.zip" file, click "Next" and "Import"
     ```
-![Product Name Screen Shot][step1-screenshot]
+![Step 1][step1-screenshot]
 
 
 3. Download the [Configuration Data - setup/data.zip](https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/data.zip)
 4. Import Configuration Data - [Configuration Data - setup/data.zip](https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/data.zip)
-
-![Product Name Screen Shot][step2-screenshot]
 
 ```sh
     1. Start the Configuration Migration tool. Double-click DataMigrationUtility.exe in the folder: [your folder]\Tools\ConfigurationMigration\
@@ -105,11 +103,15 @@ To test the solution you only need to
 
     5. Provide the data file. (.zip) to be imported. Browse to the data file, and select it. Click Import Data.
    ```
-![Product Name Screen Shot][step3-screenshot]
+![Step 2][step2-screenshot]
+
+![Step 3][step3-screenshot]
 
 5. Open the Front Line Workers Canvas App
 
-![Product Name Screen Shot][step4-screenshot]
+![Step 4][step4-screenshot]
+
+![Step 5][step5-screenshot]
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -157,5 +159,6 @@ Project Link: [https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Sol
 [step2-screenshot]: https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/images/importing-data.PNG
 [step3-screenshot]: https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/images/imported-data.PNG
 [step4-screenshot]: https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/images/canvas-app.PNG
+[step5-screenshot]: https://github.com/hsilvest/Front-Line-Workers-Power-Platform-Solution/blob/main/setup/images/canvas-app2.PNG
 [powerplatform.js]: https://img.shields.io/badge/Microsoft-Power%20Platform-green
 [powerplatform-url]: https://powerplatform.microsoft.com/en-gb/
